@@ -57,7 +57,7 @@ Ein Tag wird zwischen Anfangs-und Ende-Tag angewendet.
 <strong>Fetter Text</strong>
 ```
 
-Tag-Name | strong
+Tag-Name hier: strong
 
 Auszeichner für den Inhalt: „Fetter Text“
 
