@@ -7,6 +7,8 @@ It teaches browserbased JavaScript and therefor also introduces the students to 
 
 To get in touch with advanced techniques, the jQuery framework is taught beside vanilla JavaScript.
 
+Course outline
+--------------
 The course is construed for 6 days. Each day with 3 hour lecture and 2-3 hours practical work.
 Students have to review the course material, as it reflects the lecture very well.
 
@@ -21,7 +23,9 @@ Each lecture is devided in 4 parts (except the first and last one).
 
 Lecture setup
 -------------
+* Walk and talk
 * Chalk- or whiteboard for explanatory text, drawings or even code fragments
-* Beamer and IDE for live coding
+* Beamer and Computer with IDE for live coding
+* Practical part with distant observation.
 
 The lecture does not use projected presentation slides.
