@@ -9,8 +9,7 @@ To get in touch with advanced techniques, the jQuery framework is taught beside 
 
 Course outline
 --------------
-The course is construed for 6 days. Each day with 3 hour lecture and 2-3 hours practical work.
-Students have to review the course material, as it reflects the lecture very well.
+The course is set up for 6 days. Each day with 3 hour lecture and 2-3 hours practical work.
 
 Each lecture is devided in 4 parts (except the first and last one).
 
@@ -20,6 +19,8 @@ Each lecture is devided in 4 parts (except the first and last one).
 4. HTML-4, CSS-4, JavaScript-4, jQuery-3
 5. HTML-5, CSS-5, JavaScript-5, jQuery-4
 6. Resume, Future of JavaScript, Q&A
+
+The course material reflects the lecture very well and can be used for review and practical work at home.
 
 Lecture setup
 -------------
