@@ -1,17 +1,24 @@
 Einleitung
 ==========
 HTML steht für HyperText Markup Language.
+
 Ein Hypertext-Dokument ist eine Webseite mit Links zu anderen Webseiten im Internet.
+
 HTML gibt es seit etwa 1992.
+
 HTML ist eine Text-Beschreibungs-Sprache, keine Programmiersprache.
+
 Die aktuelle HTML-Version ist 4.01.
+
 HTML5 befindet sich von Seiten des World-Wide-Web-Consortiums (W3C) noch in der Entwicklung, erfreut sich jedoch schon regem Einsatz im Internet.
+
 Ein HTML-Dokument wird mit sog. Tags [tæg] (Auszeichnern) aufgebaut, wie man sie durch XML kennt.
 
 Grundgerüst einer Webseite
 ==========================
 
 Ein HTML-Dokument ist quasi ein XML-Dokument, dessen Tags durch die HTML-Spezifikation bestimmt sind.
+
 ```html
 <!DOCTYPE HTML>
 <html>
@@ -24,7 +31,9 @@ Ein HTML-Dokument ist quasi ein XML-Dokument, dessen Tags durch die HTML-Spezifi
 </html>
 ```
 Der Doctype kennzeichnet das HTML-Dokument als HTML5-Dokument.
+
 Das gesamte Dokument ist in das <html>-Tag eingeschlossen.
+
 Darin befindet sich ein Kopf-Bereich (für Angaben, die man in der Webseite nicht sehen kann) und der eigentliche Inhaltsbereich (body).
 In head und body können wiederum Tags stehen.
 
@@ -33,16 +42,22 @@ Aufbau von Tags
 Tag
 ---
 Tags sind eingeschlossen in spitze Klammern.
+
 Jedes Tag hat ein Anfangs-Tag und ein Ende-Tag (oder es beendet sich selbst).
 
-|<strong>  | Anfangs-Tag |
-|</strong> | Ende-Tag |
-|<br />    | Tag beendet sich selbst (Zeilenumbruch) |
+Tag  | Bedeutung
+--- | ---
+`<strong>`  | Anfangs-Tag 
+`</strong>` | Ende-Tag 
+`<br />`    | Tag beendet sich selbst (Zeilenumbruch) 
 
 Ein Tag wird zwischen Anfangs-und Ende-Tag angewendet.
-<strong>Fetter Text</strong>
 
-Tag-Name: strong
+```html
+<strong>Fetter Text</strong>
+```
+
+Tag-Name | strong
 
 Auszeichner für den Inhalt: „Fetter Text“
 
@@ -50,17 +65,19 @@ Tags können beliebig verschachtelt werden. Regel: das zuletzt geöffnete Tag mu
 ```html
 <div><strong>Fetter <em>Text</em></strong></div>
 ```
-|<div>   | gilt für den gesamten Inhalt. |
-|<strong> | gilt für den gesamten Text. |
-|<em> |	gilt für den Text „Text“. |
+<div>   | gilt für den gesamten Inhalt. 
+<strong> | gilt für den gesamten Text. 
+<em> |	gilt für den Text „Text“.
 
 Tag-Attribute
 -------------
 Anfangs-Tags können Attribute beinhalten, die näher beschreiben, wie sich dieses Tag auswirken soll.
+
 ```html
 <h1 id="WichtigeEigenschaften">Thema: Wichtige Eigenschaften</h1>
 <a href="http://www.golem.de" target="_blank">Link zu Golem</a>
 ```
+
 Attribute stehen mit einem Leerzeichen vom Tag-Namen abgesetzt und bestehen aus einem Bezeichner, dessen Eigenschaft/Wert mit einem Gleichheitszeichen verbunden wird. Der Wert wird in Gänsefüßchen eingeschlossen.
 
 Es können mehrere unterschiedliche Attribute innerhalb eines Tags verwendet werden.
@@ -70,8 +87,9 @@ Welche Attribute bei welchem Tag funktionieren definiert die HTML-Spezifikation.
 ```html
 <h1 id="WichtigeEigenschaften">...</h1>
 ```
-|id |	Bezeichner für das id-Attribut |
-|WichtigeEigenschaften|	Wert des id-Attributs |
+
+id |	Bezeichner für das id-Attribut 
+WichtigeEigenschaften|	Wert des id-Attributs 
 
 4. Einfache Textformatierung mit HTML
 Nachfolgend die am häufigsten verwendeten Textformatierungen.
