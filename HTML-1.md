@@ -30,31 +30,49 @@ In head und body können wiederum Tags stehen.
 
 Aufbau von Tags
 ===============
-3.1. Tag
+Tag
+---
 Tags sind eingeschlossen in spitze Klammern.
 Jedes Tag hat ein Anfangs-Tag und ein Ende-Tag (oder es beendet sich selbst).
-<strong>	// Anfangs-Tag
-</strong>	// Ende-Tag
-<br />	// Tag beendet sich selbst (Zeilenumbruch)
+
+|<strong>  | Anfangs-Tag |
+|</strong> | Ende-Tag |
+|<br />    | Tag beendet sich selbst (Zeilenumbruch) |
+
 Ein Tag wird zwischen Anfangs-und Ende-Tag angewendet.
 <strong>Fetter Text</strong>
+
 Tag-Name: strong
+
 Auszeichner für den Inhalt: „Fetter Text“
+
 Tags können beliebig verschachtelt werden. Regel: das zuletzt geöffnete Tag muss als erstes wieder geschlossen werden.
+```html
 <div><strong>Fetter <em>Text</em></strong></div>
-<div> 		gilt für den gesamten Inhalt.
-<strong> 	gilt für den gesamten Text.
-<em> 		gilt für den Text „Text“.
-3.2. Tag-Attribute
+```
+|<div>   | gilt für den gesamten Inhalt. |
+|<strong> | gilt für den gesamten Text. |
+|<em> |	gilt für den Text „Text“. |
+
+Tag-Attribute
+-------------
 Anfangs-Tags können Attribute beinhalten, die näher beschreiben, wie sich dieses Tag auswirken soll.
+```html
 <h1 id="WichtigeEigenschaften">Thema: Wichtige Eigenschaften</h1>
 <a href="http://www.golem.de" target="_blank">Link zu Golem</a>
+```
 Attribute stehen mit einem Leerzeichen vom Tag-Namen abgesetzt und bestehen aus einem Bezeichner, dessen Eigenschaft/Wert mit einem Gleichheitszeichen verbunden wird. Der Wert wird in Gänsefüßchen eingeschlossen.
+
 Es können mehrere unterschiedliche Attribute innerhalb eines Tags verwendet werden.
+
 Welche Attribute bei welchem Tag funktionieren definiert die HTML-Spezifikation.
-<h1 id="WichtigeEigenschaften">
-id				Bezeichner für das id-Attribut
-WichtigeEigenschaften	Wert des id-Attributs
+
+```html
+<h1 id="WichtigeEigenschaften">...</h1>
+```
+|id |	Bezeichner für das id-Attribut |
+|WichtigeEigenschaften|	Wert des id-Attributs |
+
 4. Einfache Textformatierung mit HTML
 Nachfolgend die am häufigsten verwendeten Textformatierungen.
 <strong>
