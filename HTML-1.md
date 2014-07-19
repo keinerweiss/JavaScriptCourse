@@ -65,6 +65,7 @@ Tags können beliebig verschachtelt werden. Regel: das zuletzt geöffnete Tag mu
 ```html
 <div><strong>Fetter <em>Text</em></strong></div>
 ```
+
 Tag  | Bedeutung
 --- | ---
 `<div>`   | gilt für den gesamten Inhalt. 
@@ -96,6 +97,7 @@ WichtigeEigenschaften|	Wert des id-Attributs
 Einfache Textformatierung mit HTML
 ----------------------------------
 Nachfolgend die am häufigsten verwendeten Textformatierungen.
+
 Tag  | Bedeutung
 --- | ---
 `<strong>` | Fetter Text
@@ -114,15 +116,13 @@ Tag  | Bedeutung
 --- | ---
 `<h1>` | Überschrift ersten Grades
 `<h2> - <h5>` | Überschrift 2. bis 5. Grades
-`<p>Absatz 1</p>`<br/>`<p>Absatz 2</p>` | Paragraph / Absatz<br />Absatz 1<br />Absatz 2
-
+```<p>Absatz 1</p>`<br/>`<p>Absatz 2</p>``` | Paragraph / Absatz<br />Absatz 1<br />Absatz 2
+```html
 <ul>
   <li>Punkt 1</li>
   <li>Punkt 2</li>
-</ul>
-Unsortierte Liste (mit Punkten)
-Punkt 1
-Punkt 2
+</ul>``` | Unsortierte Liste (mit Punkten)<br />Punkt 1<br />Punkt 2
+
 <ol>
   <li>Punkt 1</li>
   <li>Punkt 2</li>
