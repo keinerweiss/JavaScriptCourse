@@ -65,9 +65,11 @@ Tags können beliebig verschachtelt werden. Regel: das zuletzt geöffnete Tag mu
 ```html
 <div><strong>Fetter <em>Text</em></strong></div>
 ```
-<div>   | gilt für den gesamten Inhalt. 
-<strong> | gilt für den gesamten Text. 
-<em> |	gilt für den Text „Text“.
+Tag  | Bedeutung
+--- | ---
+`<div>`   | gilt für den gesamten Inhalt. 
+`<strong>` | gilt für den gesamten Text. 
+`<em>` |	gilt für den Text „Text“.
 
 Tag-Attribute
 -------------
@@ -91,30 +93,28 @@ Welche Attribute bei welchem Tag funktionieren definiert die HTML-Spezifikation.
 id |	Bezeichner für das id-Attribut 
 WichtigeEigenschaften|	Wert des id-Attributs 
 
-4. Einfache Textformatierung mit HTML
+Einfache Textformatierung mit HTML
+----------------------------------
 Nachfolgend die am häufigsten verwendeten Textformatierungen.
-<strong>
-Fetter Text
-<em>
-Kusiver Text
-<u>
-Unterstrichener Text
-<strike>
-Durchgestrichener Text
-<sup>
-Hochgestellter Text
+Tag  | Bedeutung
+--- | ---
+`<strong>` | Fetter Text
+`<em>` |Kusiver Text
+`<u>` | Unterstrichener Text
+`<strike>` | Durchgestrichener Text
+`<sup>` | Hochgestellter Text
+
 Weiterführende Informationen finden Sie unter http://www.w3schools.com/html5/html5_reference.asp 
-5. Einfache Text-Strukturierung mit HTML
+
+Einfache Text-Strukturierung mit HTML
+-------------------------------------
 Bei Textstrukturierung ist es empfehlenswert eine einheitliche, blockweise Einrückung zu verwenden. So bleiben die Zusammenhänge der Tags leicht erfassbar.
-<h1>
-Überschrift ersten Grades
-<h2> - <h5>
-Überschrift 2. bis 5. Grades
-<p>Absatz 1</p>
-<p>Absatz 2</p>
-Paragraph / Absatz
-Absatz 1
-Absatz 2
+Tag  | Bedeutung
+--- | ---
+`<h1>` | Überschrift ersten Grades
+`<h2> - <h5>` | Überschrift 2. bis 5. Grades
+`<p>Absatz 1</p>`<br/>`<p>Absatz 2</p>` | Paragraph / Absatz<br />Absatz 1<br />Absatz 2
+
 <ul>
   <li>Punkt 1</li>
   <li>Punkt 2</li>
