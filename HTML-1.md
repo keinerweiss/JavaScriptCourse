@@ -109,6 +109,7 @@ Weiterführende Informationen finden Sie unter http://www.w3schools.com/html5/ht
 Einfache Text-Strukturierung mit HTML
 -------------------------------------
 Bei Textstrukturierung ist es empfehlenswert eine einheitliche, blockweise Einrückung zu verwenden. So bleiben die Zusammenhänge der Tags leicht erfassbar.
+
 Tag  | Bedeutung
 --- | ---
 `<h1>` | Überschrift ersten Grades
