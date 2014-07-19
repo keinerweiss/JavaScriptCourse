@@ -95,7 +95,7 @@ id |	Bezeichner für das id-Attribut
 WichtigeEigenschaften|	Wert des id-Attributs 
 
 Einfache Textformatierung mit HTML
-----------------------------------
+==================================
 Nachfolgend die am häufigsten verwendeten Textformatierungen.
 
 Tag  | Bedeutung
@@ -109,7 +109,7 @@ Tag  | Bedeutung
 Weiterführende Informationen finden Sie unter http://www.w3schools.com/html5/html5_reference.asp 
 
 Einfache Text-Strukturierung mit HTML
--------------------------------------
+=====================================
 Bei Textstrukturierung ist es empfehlenswert eine einheitliche, blockweise Einrückung zu verwenden. So bleiben die Zusammenhänge der Tags leicht erfassbar.
 
 Tag  | Bedeutung
@@ -117,34 +117,11 @@ Tag  | Bedeutung
 `<h1>` | Überschrift ersten Grades
 `<h2> - <h5>` | Überschrift 2. bis 5. Grades
 `<p>Absatz 1</p>`<br/>`<p>Absatz 2</p>` | Paragraph / Absatz<br />Absatz 1<br />Absatz 2
-`<ul>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2</li>`<br/>`  </ul>`  | Unsortierte Liste (mit Punkten)<br />Punkt 1<br />Punkt 2
+`<ul>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2</li>`<br/>`  </ul>` | Unsortierte Liste (mit Punkten)<br />Punkt 1<br />Punkt 2
+`<ol>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2</li>`<br/>`  </ol>` | Geordnete Liste (mit Zahlen)
+`<ul>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2`<br />`    <ol>`<br/>`      <li>Punkt 2.1</li>`<br/>`      <li>Punkt 2.2</li>`<br/>`      </ol>`<br />`  </li>`<br/>`</ul>` | Verschachtelte Listen<br />Punkt 1<br />Punkt 2<br />1. Punkt 2.1<br />2. Punkt 2.2<br />
+`<blockquote>„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“`</blockquote> | Zitat<br />„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“
 
-<ol>
-  <li>Punkt 1</li>
-  <li>Punkt 2</li>
-</ol>
-Geordnete Liste (mit Zahlen)
-1. Punkt 1
-2. Punkt 2
-<ul>
-  <li>Punkt 1</li>
-  <li>Punkt 2
-    <ol>
-      <li>Punkt 2.1</li>
-      <li>Punkt 2.2</li>
-    </ol>
-  </li>
-</ul>
-Verschachtelte Listen
-Punkt 1
-Punkt 2
-1. Punkt 2.1
-2. Punkt 2.2
-<blockquote>
-„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“
-</blockquote>
-Zitat
-„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“
 6. Links und URLs
 6.1. Links in HTML
 Erst Links machen ein Hypertext-Dokument so richtig „Hyper“.
