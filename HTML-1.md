@@ -120,14 +120,17 @@ Tag  | Bedeutung
 `<ul>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2</li>`<br/>`  </ul>` | Unsortierte Liste (mit Punkten)<br />Punkt 1<br />Punkt 2
 `<ol>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2</li>`<br/>`  </ol>` | Geordnete Liste (mit Zahlen)
 `<ul>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2`<br />`    <ol>`<br/>`      <li>Punkt 2.1</li>`<br/>`      <li>Punkt 2.2</li>`<br/>`      </ol>`<br />`  </li>`<br/>`</ul>` | Verschachtelte Listen<br />Punkt 1<br />Punkt 2<br />1. Punkt 2.1<br />2. Punkt 2.2<br />
-`<blockquote>„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“`</blockquote> | Zitat<br />„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“
+`<blockquote>`<br />`„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“`<br />`</blockquote>` | Zitat<br />„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“
 
 6. Links und URLs
+=================
 6.1. Links in HTML
+------------------
 Erst Links machen ein Hypertext-Dokument so richtig „Hyper“.
 Das Link-Tag lautet „a“ für Anchor (Anker). Damit das Link-Ziel klar ist, ist das Attribut „href“ (hpyertext-reference) Pflicht.
 <a href="http://www.golem.de/index.htm">Link zu Golem</a>
 6.2. URL
+--------
 URL steht für Unique Resource Location.
 Es gibt unterschiedliche Ausprägungen von Links innerhalb einer Webseite.
 Angenommen, der Link befindet sich in einer Seite "http://example.com/de/infos.html
@@ -158,7 +161,9 @@ jobs/alle.html
 /de/neu/infos.html
 ../unternehmen.html
 /de/unternehmen.html
+
 6.3. URL-Parameter
+------------------
 URLs können Parameter für Scripte auf dem Server beinhalten.
 Diese sogenannten GET-Parameter sind wie folgt aufgebaut:
 parameter=wert
@@ -167,7 +172,9 @@ modul=Seite&aktion=Anzeigen&seite=Jobs
 Diese Parameter-Kette (Query String) wird mit einem „?“ an die URL angeheftet.
 /index.php?modul=Seite&aktion=Anzeigen&seite=Jobs
 Eine URL mit Parametern wird auch als URI (Unique Resource Identifier) bezeichnet. Jede URL ist auch eine URI, aber nicht jede URI ist eine URL.
+
 7. Einbinden von Stylesheets
+============================
 Stylesheets werden üblicherweise im head-Bereich der Webseite notiert.
 Dies kann 2 Ausprägungen haben:
 Direkt:
