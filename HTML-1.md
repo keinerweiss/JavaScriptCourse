@@ -12,7 +12,7 @@ Die aktuelle HTML-Version ist 4.01.
 
 HTML5 befindet sich von Seiten des World-Wide-Web-Consortiums (W3C) noch in der Entwicklung, erfreut sich jedoch schon regem Einsatz im Internet.
 
-Ein HTML-Dokument wird mit sog. Tags [tæg] (Auszeichnern) aufgebaut, wie man sie durch XML kennt.
+Ein HTML-Dokument wird mit sog. Tags \[tæg\] (Auszeichnern) aufgebaut, wie man sie durch XML kennt.
 
 Grundgerüst einer Webseite
 ==========================
@@ -129,7 +129,10 @@ Links in HTML
 Erst Links machen ein Hypertext-Dokument so richtig „hyper“.
 
 Das Link-Tag lautet „a“ für Anchor (Anker). Damit das Link-Ziel klar ist, ist das Attribut „href“ (hpyertext-reference) Pflicht.
-`<a href="http://www.golem.de/index.htm">Link zu Golem</a>`
+
+```html
+<a href="http://www.golem.de/index.htm">Link zu Golem</a>
+```
 
 URL
 --------
