@@ -156,7 +156,7 @@ Der absolute Link beinhaltet das vollständige Pfadsegment, beginnend mit einem 
 Der relative Link beinhaltet eine Pfadangabe ohne Schrägstrich am Anfang. Das Link-Ziel wird ausgehend voḿ aktuellen Pfad ermittelt. Zwei Punkte „..“ als Pfad-Segment bezeichnen die vorausgehende Pfad-Ebene.
 
 Seite  | Link | Ziel
---- | ---
+--- | --- | ---
 /de/neu/infos.html | material.html | /de/neu/material.html
 /de/neu/infos.html | jobs/alle.html | /de/neu/jobs/alle.html
 /de/neu/infos.html | ../unternehmen.html | /de/unternehmen.html
@@ -167,13 +167,13 @@ Seite  | Link | Ziel
 URLs können Parameter beinhalten. Diese werden i.d.R. vom Webserver ausgewertet.
 
 Diese sogenannten GET-Parameter sind wie folgt aufgebaut:
-`parameter=wert`
+```parameter=wert```
 
 Mehrere GET-Parameter können mit „&“ verbunden werden.
-`modul=Seite&aktion=Anzeigen&seite=Jobs`
+```modul=Seite&aktion=Anzeigen&seite=Jobs```
 
 Diese Parameter-Kette (Query String) wird mit einem „?“ an die URL angeheftet.
-`/index.php?modul=Seite&aktion=Anzeigen&seite=Jobs`
+```/index.php?modul=Seite&aktion=Anzeigen&seite=Jobs```
 
 Eine URL mit Parametern wird auch als URI (Unique Resource Identifier) bezeichnet. Jede URL ist auch eine URI, aber nicht jede URI ist eine URL.
 
