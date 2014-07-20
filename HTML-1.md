@@ -144,7 +144,7 @@ Angenommen, der Link befindet sich in einer Seite "http://example.com/de/infos.h
 
 Link  | Ausprägung
 --- | ---
-http://www.golem.de/index.html | Vollständig
+`http://www.golem.de/index.html` | Vollständig
 /en/material.html<br />/en/infos.html<br /> | Absolut
 ../de/impressum.html<br />impressum.html | Relativ
 
