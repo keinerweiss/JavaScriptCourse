@@ -126,51 +126,55 @@ Tag  | Bedeutung
 =================
 6.1. Links in HTML
 ------------------
-Erst Links machen ein Hypertext-Dokument so richtig „Hyper“.
+Erst Links machen ein Hypertext-Dokument so richtig „hyper“.
+
 Das Link-Tag lautet „a“ für Anchor (Anker). Damit das Link-Ziel klar ist, ist das Attribut „href“ (hpyertext-reference) Pflicht.
-<a href="http://www.golem.de/index.htm">Link zu Golem</a>
+`<a href="http://www.golem.de/index.htm">Link zu Golem</a>`
+
 6.2. URL
 --------
-URL steht für Unique Resource Location.
-Es gibt unterschiedliche Ausprägungen von Links innerhalb einer Webseite.
-Angenommen, der Link befindet sich in einer Seite "http://example.com/de/infos.html
-http://www.golem.de/index.htm
-Vollständig
+"URL" steht für Unique Resource Location.
 
-/en/material.html
-Absolut
-/en/infos.html
-impressum.html
-Relativ
-/de/impressum.html
+Es gibt unterschiedliche Ausprägungen von Links/URLs innerhalb einer Webseite.
+
+Angenommen, der Link befindet sich in einer Seite "http://example.com/de/infos.html
+
+Link  | Ausprägung
+--- | ---
+http://www.golem.de/index.html | Vollständig
+/en/material.html<br />/en/infos.html<br /> | Absolut
+../de/impressum.html<br />impressum.html | Relativ
+
 Der vollständige Link beinhaltet alle Komponenten einer URL:
+
 1. Protokoll	http:// oder https://
-2. Domain		bspw. www.golem.de
-3. Pfad		bspw. /en/infos.html
+1. Domain		bspw. www.golem.de
+1. Pfad		bspw. /en/infos.html
+
 Der absolute Link beinhaltet das vollständige Pfadsegment, beginnend mit einem Schrägstrich „/“.
+
 Der relative Link beinhaltet eine Pfadangabe ohne Schrägstrich am Anfang. Das Link-Ziel wird ausgehend voḿ aktuellen Pfad ermittelt. Zwei Punkte „..“ als Pfad-Segment bezeichnen die vorausgehende Pfad-Ebene.
-Seite
-Link
-Ziel
-/de/neu/infos.html
-material.html
-/de/neu/material.html
-/de/neu/infos.html
-jobs/alle.html
-/de/neu/jobs/alle.html
-/de/neu/infos.html
-../unternehmen.html
-/de/unternehmen.html
+
+Seite  | Link | Ziel
+--- | ---
+/de/neu/infos.html | material.html | /de/neu/material.html
+/de/neu/infos.html | jobs/alle.html | /de/neu/jobs/alle.html
+/de/neu/infos.html | ../unternehmen.html | /de/unternehmen.html
+
 
 6.3. URL-Parameter
 ------------------
-URLs können Parameter für Scripte auf dem Server beinhalten.
+URLs können Parameter beinhalten. Diese werden i.d.R. vom Webserver ausgewertet.
+
 Diese sogenannten GET-Parameter sind wie folgt aufgebaut:
-parameter=wert
+`parameter=wert`
+
 Mehrere GET-Parameter können mit „&“ verbunden werden.
-modul=Seite&aktion=Anzeigen&seite=Jobs
+`modul=Seite&aktion=Anzeigen&seite=Jobs`
+
 Diese Parameter-Kette (Query String) wird mit einem „?“ an die URL angeheftet.
-/index.php?modul=Seite&aktion=Anzeigen&seite=Jobs
+`/index.php?modul=Seite&aktion=Anzeigen&seite=Jobs`
+
 Eine URL mit Parametern wird auch als URI (Unique Resource Identifier) bezeichnet. Jede URL ist auch eine URI, aber nicht jede URI ist eine URL.
 
 7. Einbinden von Stylesheets
