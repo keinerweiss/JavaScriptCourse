@@ -122,16 +122,16 @@ Tag  | Bedeutung
 `<ul>`<br/>`  <li>Punkt 1</li>`<br/>`  <li>Punkt 2`<br />`    <ol>`<br/>`      <li>Punkt 2.1</li>`<br/>`      <li>Punkt 2.2</li>`<br/>`      </ol>`<br />`  </li>`<br/>`</ul>` | Verschachtelte Listen<br />Punkt 1<br />Punkt 2<br />1. Punkt 2.1<br />2. Punkt 2.2<br />
 `<blockquote>`<br />`„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“`<br />`</blockquote>` | Zitat<br />„Phantasie ist wichtiger als Wissen, denn Wissen ist begrenzt.“
 
-6. Links und URLs
+Links und URLs
 =================
-6.1. Links in HTML
+Links in HTML
 ------------------
 Erst Links machen ein Hypertext-Dokument so richtig „hyper“.
 
 Das Link-Tag lautet „a“ für Anchor (Anker). Damit das Link-Ziel klar ist, ist das Attribut „href“ (hpyertext-reference) Pflicht.
 `<a href="http://www.golem.de/index.htm">Link zu Golem</a>`
 
-6.2. URL
+URL
 --------
 "URL" steht für Unique Resource Location.
 
@@ -167,34 +167,60 @@ Seite  | Link | Ziel
 URLs können Parameter beinhalten. Diese werden i.d.R. vom Webserver ausgewertet.
 
 Diese sogenannten GET-Parameter sind wie folgt aufgebaut:
-```parameter=wert```
+```
+parameter=wert
+```
 
 Mehrere GET-Parameter können mit „&“ verbunden werden.
-```modul=Seite&aktion=Anzeigen&seite=Jobs```
+```
+modul=Seite&aktion=Anzeigen&seite=Jobs
+```
 
 Diese Parameter-Kette (Query String) wird mit einem „?“ an die URL angeheftet.
-```/index.php?modul=Seite&aktion=Anzeigen&seite=Jobs```
+```
+/index.php?modul=Seite&aktion=Anzeigen&seite=Jobs
+```
 
 Eine URL mit Parametern wird auch als URI (Unique Resource Identifier) bezeichnet. Jede URL ist auch eine URI, aber nicht jede URI ist eine URL.
 
-7. Einbinden von Stylesheets
+Einbinden von Stylesheets
 ============================
+
 Stylesheets werden üblicherweise im head-Bereich der Webseite notiert.
+
 Dies kann 2 Ausprägungen haben:
-Direkt:
+
+*Direkt:*
+
+```html
 <style>
   body {
     font-family: Arial, Helvetica, Verdana;
     font-size: 0.9em;
   }
 </style>
-Ausgelagert (zu bevorzugen):
+```
+
+*Ausgelagert (zu bevorzugen):*
+
+```html
 <link rel="stylesheet" type="text/css" href="/styles/standard.css" />
+```
+
 Einbinden von JavaScript
+========================
 JavaScript kann im head- oder im body-Bereich notiert werden. Die lineare Verarbeitung ist bei der Platzierung zu berücksichtigen.
-Direkt:
+
+*Direkt:*
+
+```html
 <script type="text/javascript">
   alert("JavaScript sagt Hallo!");
 </script>
+```
+
 Ausgelagert (zu bevorzugen):
+
+```html
 <script type="text/javascript" src="/js/myscript.js"></script>
+```
