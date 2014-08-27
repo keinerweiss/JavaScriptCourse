@@ -245,7 +245,7 @@ Mehrzeilige Einfachauswahl
 
 In mehrzeiligen Eingabefelder werden die verfügbaren Einträge als Liste angeboten. Sind mehr Einträge verfügbar als die Höhe des Elements zulässt, erscheinen Scrollbalken.
 
-```
+```html
 <select name="anrede" id="anrede" size="3">
   <option value="Herr">Herr</option>
   <option value="Frau">Frau</option>
@@ -287,6 +287,8 @@ Buttons sind Schaltflächen, mit denen sich Aktionen auslösen lassen. Klassisch w
 ```
 
 Ein solcher Submit-Button kann auch ein Bild sein.
+
+```html
 <input type="image" name="send" src="images/button.jpg" width="" height="" />
 ```
 
@@ -361,5 +363,5 @@ time |      |     |  Ja  |  Ja  |  Ja
 week |      |     |  Ja  |  Ja  |  Ja
 
 Beschreibungen und Test der Funktionalität können auf w3Schools vertieft werden:
-http://www.w3schools.com/html5/html5_form_input_types.asp
-http://www.w3schools.com/html5/html5_form_elements.asp
+* http://www.w3schools.com/html5/html5_form_input_types.asp
+* http://www.w3schools.com/html5/html5_form_elements.asp
