@@ -13,10 +13,10 @@ The course is set up for 6 days. Each day with 3 hour lecture and 2-3 hours prac
 
 Each lecture is devided in 4 parts (except the first and last one).
 
-1. [HTML-1.md](HTML-1), [CSS-1.md](CSS-1), JavaScript-1
-2. [HTML-2.md](HTML-2), CSS-2, JavaScript-2, jQuery-1
-3. [HTML-3.md](HTML-3), CSS-3, JavaScript-5, jQuery-2
-4. [HTML-4.md](HTML-4), CSS-4, JavaScript-4, jQuery-3
+1. [HTML-1](HTML-1.md), [CSS-1](CSS-1.md), JavaScript-1
+2. [HTML-2](HTML-2.md), CSS-2, JavaScript-2, jQuery-1
+3. [HTML-3](HTML-3.md), CSS-3, JavaScript-5, jQuery-2
+4. [HTML-4](HTML-4.md), CSS-4, JavaScript-4, jQuery-3
 5. HTML-5, CSS-5, JavaScript-5, jQuery-4
 6. Resume, Future of JavaScript, Q&A
 
